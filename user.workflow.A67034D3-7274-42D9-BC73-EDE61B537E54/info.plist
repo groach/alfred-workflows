@@ -4,15 +4,13 @@
 <dict>
 	<key>bundleid</key>
 	<string></string>
-	<key>category</key>
-	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
-		<key>141E1915-F130-4F42-9DC9-1518A42CE0A2</key>
+		<key>D2FE2588-2C43-4E3F-8DD0-43B475DDBA53</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>06807566-3CF5-4FFC-ABED-9799C1245360</string>
+				<string>B29F583C-4CFD-4832-BCA2-59DF85AD2DD2</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -23,27 +21,23 @@
 	<key>createdby</key>
 	<string></string>
 	<key>description</key>
-	<string></string>
+	<string>Open Downloads Folder</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Github</string>
+	<string>Downloads</string>
 	<key>objects</key>
 	<array>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>plusspaces</key>
-				<false/>
-				<key>url</key>
-				<string>https://github.com/webstreak</string>
-				<key>utf8</key>
-				<true/>
+				<key>path</key>
+				<string>~/Downloads</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
+			<string>alfred.workflow.action.browseinalfred</string>
 			<key>uid</key>
-			<string>06807566-3CF5-4FFC-ABED-9799C1245360</string>
+			<string>B29F583C-4CFD-4832-BCA2-59DF85AD2DD2</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -53,16 +47,16 @@
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>github</string>
+				<string>downloads</string>
 				<key>text</key>
-				<string>groach@github</string>
+				<string>Open Downloads Folder</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>141E1915-F130-4F42-9DC9-1518A42CE0A2</string>
+			<string>D2FE2588-2C43-4E3F-8DD0-43B475DDBA53</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -71,12 +65,12 @@
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>06807566-3CF5-4FFC-ABED-9799C1245360</key>
+		<key>B29F583C-4CFD-4832-BCA2-59DF85AD2DD2</key>
 		<dict>
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
-		<key>141E1915-F130-4F42-9DC9-1518A42CE0A2</key>
+		<key>D2FE2588-2C43-4E3F-8DD0-43B475DDBA53</key>
 		<dict>
 			<key>ypos</key>
 			<real>10</real>
